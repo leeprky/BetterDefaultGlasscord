@@ -1,0 +1,8 @@
+{
+    "name": "BetterDefaultGlasscord",
+    "description": "Improves The Basic Glasscord Theme",
+    "version": "1.0",
+    "author": "Leeprky#2063",
+    "license": "MIT",
+    "theme": "BetterDefaultGlasscord.theme.css"
+}
