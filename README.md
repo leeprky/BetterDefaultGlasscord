@@ -24,4 +24,5 @@ MIT, see LICENSE.md for more details
 
 ## Previews
 
-![preview](./previews/)
+![preview](./previews/BeytBetterDefaultGlasscord1.jpg)
+![preview](./previews/BetterDefaultGlasscord2.jpg)
