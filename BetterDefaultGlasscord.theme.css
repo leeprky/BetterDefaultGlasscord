@@ -245,9 +245,9 @@ body{
     --alt-color: 114, 137, 218;
     --spotify-color: #15db47;
 	--text-normal: #fff;
-	--text-muted: #fff;
-	--channels-default: #e6ebf1;
-	--interactive-muted: #8b8f94;
+	--text-muted: rgb(141, 141, 141);
+	--channels-default: #d8dde4;
+	--interactive-muted: #56595c;
 	--background-primary: rgba(19, 18, 18, 0.411);
 	--background-primary2: rgba(19, 18, 18, 0);
 	--background-titlebar: rgba(19, 18, 18, 0.267);
