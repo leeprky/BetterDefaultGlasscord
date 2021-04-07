@@ -244,18 +244,20 @@ body{
 .theme-dark{
     --alt-color: 114, 137, 218;
     --spotify-color: #15db47;
-    --toast-header: transparent;
 	--text-normal: #fff;
 	--text-muted: #fff;
-	--background-primary: rgba(19, 18, 18, 0.267);
+	--channels-default: #e6ebf1;
+	--interactive-muted: #8b8f94;
+	--background-primary: rgba(19, 18, 18, 0.411);
 	--background-primary2: rgba(19, 18, 18, 0);
 	--background-titlebar: rgba(19, 18, 18, 0.267);
 	--background-primary-alt: rgba(66, 61, 61, 0.116);
-	--background-secondary: rgba(66, 61, 61, 0.192);
+	--background-secondary: rgba(66, 61, 61, 0.411);
+	--background-secondary2: rgba(66, 61, 61, 0.192);
 	--background-secondary-chat: rgba(66, 61, 61, 0.226);
 	--background-secondary-alt: rgba(66, 61, 61, 0.192);
-	--background-tertiary: #00000050; /* CHANGE THIS TO MAKE DARKER/LIGHTER BACKGROUND GLOBALLY - MAY BREAK SEVERLIST COLOR THOUGH */
-	--background-serverlist: #e6dada00;
+	--background-tertiary: #00000000; /* CHANGE THIS TO MAKE DARKER/LIGHTER BACKGROUND GLOBALLY - MAY BREAK SEVERLIST COLOR THOUGH */
+	--background-serverlist: #f7e5e500;
 	--background-floating: rgba(5, 5, 5, 0.747);
 	--background-logo: #36393fa0;
 	--deprecated-card-bg: #36393f4c;
@@ -617,6 +619,12 @@ ul.tree-2wKJdG:focus {
 }
 .tree-2wKJdG {
 	background-color: var(--background-serverlist)
+}
+.expandedFolderBackground-1cujaW {
+    background-color: var(--background-secondary2);
+}
+.form-2fGMdU:before {
+	display: none;
 }
   /* --- */
 
