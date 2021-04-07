@@ -96,9 +96,7 @@
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
     background-color: #2f313600;
 }
-.userPopout-3XzG_A {
-	box-shadow: none;
-  }
+
 /* */
 
 .headerNormal-T_seeN {
@@ -119,7 +117,7 @@
 
 .headerPlaying-j0WQBV, .headerStreaming-2FjmGz {
 	z-index: 0;
-	background: #8d1db933;
+	background: #a80ce638;
 }
 
 .headerPlaying-j0WQBV::after, .headerStreaming-2FjmGz::after {
@@ -129,7 +127,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #8d1db933;
+	background: #a80ce638;
 	z-index: -1;
 	border-radius: 5px;
 }
@@ -212,7 +210,7 @@
 
 .topSectionSpotify-1lI0-P {
 	z-index: 0;
-	background: #1db95423;
+	background: #1db95400;
 }
 
 .topSectionSpotify-1lI0-P::after {
