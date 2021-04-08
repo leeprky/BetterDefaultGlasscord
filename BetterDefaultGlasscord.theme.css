@@ -89,7 +89,7 @@ body{
 	--text-muted: rgb(141, 141, 141); /* Muted Emblem/Svg Text */
 	--channels-default: #d8dde4; /* Normal Channel Text */
 	--interactive-muted: #56595c; /* Muted Text */
-	--background-primary: rgba(19, 18, 18, 0.411); /* Chatbox/Memberlist Colour */
+	--background-primary: rgba(19, 18, 18, 0.616); /* Chatbox/Memberlist Colour */
 	--background-primary2: rgba(19, 18, 18, 0); /* Chatbox Colour Extra - Used in my extras */
 	--background-primary-alt: rgba(66, 61, 61, 0.116); /* Primary Secondary */
 	--background-secondary: rgba(66, 61, 61, 0.411); /* Serverlist/Channelist Colour */
