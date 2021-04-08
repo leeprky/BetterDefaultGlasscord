@@ -57,7 +57,7 @@
 	/* Discord-specific properties */
 	/* Custom (forced) titlebar */
 	/* native (default), windows, osx, linux (framed) */
-	--glasscord-titlebar: windows;
+	--glasscord-titlebar: osx;
 
 	/* USRBG Compatibility */
 	/* Please refer to https://github.com/Discord-Custom-Covers/usrbg */
