@@ -641,14 +641,14 @@ ul.tree-2wKJdG:focus {
   /* --- */
 
 /* DiscordTextTopLeftSlook */
-.wordmark-2iDDfm svg {
-    width: 0px;
+.theme-dark .wordmark-2iDDfm svg {
+	width: 0px;
   }
   .theme-dark .wordmark-2iDDfm:after {
     font-family: "Discord"; /* - DISCORD USERNAME FONT */
-    content: "GLASSCORD";
+    content: "BDG";
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
     background: #eee9ee00;
     background-size: 400% 400%;
     position: absolute;
