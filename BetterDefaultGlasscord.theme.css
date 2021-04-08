@@ -83,41 +83,28 @@ body{
 }
 
 .theme-dark{
-    --alt-color: 114, 137, 218;
-    --spotify-color: #15db47;
+    --alt-color: 114, 137, 218; /* Changes The Blurple Parts Of Discord: Must be in RBG Formot (#, #, #) */
+    --spotify-color: #15db47; /* Changes The Global Spotify Colour */
 	--text-normal: #fff;
-	--text-muted: rgb(141, 141, 141);
-	--channels-default: #d8dde4;
-	--interactive-muted: #56595c;
-	--background-primary: rgba(19, 18, 18, 0.411);
-	--background-primary2: rgba(19, 18, 18, 0);
-	--background-titlebar: rgba(19, 18, 18, 0.267);
-	--background-primary-alt: rgba(66, 61, 61, 0.116);
-	--background-secondary: rgba(66, 61, 61, 0.411);
-	--background-secondary2: rgba(66, 61, 61, 0.192);
-	--background-secondary-chat: rgba(66, 61, 61, 0.226);
-	--background-secondary-alt: rgba(66, 61, 61, 0.192);
-	--background-tertiary: #00000000; /* CHANGE THIS TO MAKE DARKER/LIGHTER BACKGROUND GLOBALLY - MAY BREAK SEVERLIST COLOR THOUGH */
-	--background-serverlist: #f7e5e500;
-	--background-floating: rgba(5, 5, 5, 0.747);
-	--background-logo: #36393fa0;
-	--deprecated-card-bg: #36393f4c;
-	--deprecated-store-bg: #36393f00;
-	--background-attachments: #2f313640;
-	--background-search-bar: #20222569;
-	--background-switcher: #2f3136ff;
-	--background-chatbox: #20222550;
-	--background-lights-out: #000;
-	--background-pinned: #2f3136ff;
-	--background-profile-expand: #2f3136ff;
-	--background-emoji: #2f3136ff;
-    --background-mentioned: #faa81a0a;
-    --background-mentioned-hover: #faa81a18;
-	--elevation-stroke: 0 0 0 1px rgba(26, 22, 22, 0.329);
-    --elevation-low: 0 1px 0 rgba(26, 22, 22, 0.329);
-    --elevation-medium: 0 4px 4px rgba(26, 22, 22, 0.329);
-    --elevation-high: 0 8px 16px rgba(26, 22, 22, 0.329);
-    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+	--text-muted: rgb(141, 141, 141); /* Muted Emblem/Svg Text */
+	--channels-default: #d8dde4; /* Normal Channel Text */
+	--interactive-muted: #56595c; /* Muted Text */
+	--background-primary: rgba(19, 18, 18, 0.411); /* Chatbox/Memberlist Colour */
+	--background-primary2: rgba(19, 18, 18, 0); /* Chatbox Colour Extra - Used in my extras */
+	--background-primary-alt: rgba(66, 61, 61, 0.116); /* Primary Secondary */
+	--background-secondary: rgba(66, 61, 61, 0.411); /* Serverlist/Channelist Colour */
+	--background-secondary2: rgba(66, 61, 61, 0.192); /* Serverlist/Channelist Colour - Used in my extras */
+	--background-secondary-chat: rgba(224, 27, 27, 0.226); /* Idk nothing lol */
+	--background-secondary-alt: var(--background-secondary); /* Name/ Config area below channels */
+	--background-tertiary: #00000007; /* CHANGE THIS TO MAKE DARKER/LIGHTER BACKGROUND GLOBALLY - MAY BREAK SEVERLIST COLOR THOUGH */
+	--background-serverlist: #00000000; /* Used For If --background-tertiary is too bright/dark */
+	--background-floating: rgba(5, 5, 5, 0.747); /* Floating boxes colour */
+	--background-logo: #36393fa0; /* Serverlist discord logo backdrops */
+	--background-attachments: #2f313640; /* Embeds colour etc */
+	--background-search-bar: #20222569; /* Search bar in top right etc */
+	--background-chatbox: #20222550; /* The chatbox colour */
+    --background-mentioned: #faa81a0a; /* Mentioned background colour */
+    --background-mentioned-hover: #faa81a18; /* Mentioned background colour on hover */
 }
 
 /* --- */
