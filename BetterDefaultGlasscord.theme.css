@@ -71,6 +71,25 @@
 	--usrbg-modal-height: 600px;
 }
 
+/* Windows Fix For ServerList Horizontal */
+/*
+#app-mount .app-1q1i1E .base-3dtUhz {
+  top: calc(var(--server-container) + 4px) !important;
+}
+/* Linux Fix For ServerList */
+/*
+#app-mount .app-1q1i1E .base-3dtUhz {
+  top: calc(var(--server-container) + 6px) !important;
+}
+/* macOS Fix For ServerList */
+/*
+#app-mount .app-1q1i1E .base-3dtUhz {
+  top: calc(var(--server-container) + 38px) !important;
+}
+.platform-osx .container-1r6BKw {
+  -webkit-app-region: none;
+}
+
 /* --- */
 
 body{
