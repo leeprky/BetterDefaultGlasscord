@@ -2,7 +2,7 @@
  * @name BetterDefaultGlasscord
  * @description This theme improves the basic glasscord template
  * @author Leeprky#2063
- * @version 1.0
+ * @version 1.1
  * @source https://github.com/leeprky/BetterDefaultGlasscord
  * @invite https://discord.gg/Ff3rqAYB89
  * @authorLink hhttps://github.com/leeprky
@@ -32,7 +32,7 @@
 /* Discord Font */
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 
-/* BDG Import */
+/* BDG Import */ 
 @import url(https://raw.githack.com/leeprky/BetterDefaultGlasscord/main/source/source.css);
 
 :root{
@@ -57,7 +57,7 @@
 	/* Discord-specific properties */
 	/* Custom (forced) titlebar */
 	/* native (default), windows, osx, linux (framed) */
-	--glasscord-titlebar: osx;
+	--glasscord-titlebar: native;
 
 	/* USRBG Compatibility */
 	/* Please refer to https://github.com/Discord-Custom-Covers/usrbg */
@@ -71,20 +71,10 @@
 	--usrbg-modal-height: 600px;
 }
 
-/* Windows Fix For ServerList Horizontal */
-/*
-#app-mount .app-1q1i1E .base-3dtUhz {
-  top: calc(var(--server-container) + 4px) !important;
-}
-/* Linux Fix For ServerList */
-/*
-#app-mount .app-1q1i1E .base-3dtUhz {
-  top: calc(var(--server-container) + 6px) !important;
-}
 /* macOS Fix For ServerList */
 /*
-#app-mount .app-1q1i1E .base-3dtUhz {
-  top: calc(var(--server-container) + 38px) !important;
+#app-mount .guilds-1SWlCJ, .base-3dtUhz {
+  top: calc(var(--server-container) + -32px) !important;
 }
 .platform-osx .container-1r6BKw {
   -webkit-app-region: none;
