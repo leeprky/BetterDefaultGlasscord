@@ -35,6 +35,9 @@
 /* BDG Import */ 
 @import url(https://raw.githack.com/leeprky/BetterDefaultGlasscord/main/source/source.css);
 
+/* Light Mode Warning */
+@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/LightModeWarning.css);
+
 :root{
 	/* Here you can define properties for use with Glasscord. */
 
