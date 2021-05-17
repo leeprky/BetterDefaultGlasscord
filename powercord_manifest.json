@@ -1,7 +1,7 @@
 {
     "name": "BetterDefaultGlasscord",
     "description": "Improves The Basic Glasscord Theme",
-    "version": "1.1",
+    "version": "1.2",
     "author": "Leeprky#2063",
     "license": "MIT",
     "theme": "BetterDefaultGlasscord.theme.css"
