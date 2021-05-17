@@ -2,7 +2,7 @@
  * @name BetterDefaultGlasscord
  * @description This theme improves the basic glasscord template
  * @author Leeprky#2063
- * @version 1.1
+ * @version 1.2
  * @source https://github.com/leeprky/BetterDefaultGlasscord
  * @invite https://discord.gg/Ff3rqAYB89
  * @authorLink hhttps://github.com/leeprky
@@ -25,6 +25,7 @@
 
 /* BlurpleColor */
 @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
+@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
 
 /* USRBG */
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
@@ -101,14 +102,14 @@ body{
 	--text-muted: rgb(141, 141, 141); /* Muted Emblem/Svg Text */
 	--channels-default: #d8dde4; /* Normal Channel Text */
 	--interactive-muted: #56595c; /* Muted Text */
-	--background-primary: rgba(19, 18, 18, 0.616); /* Chatbox/Memberlist Colour */
-	--background-primary2: rgba(19, 18, 18, 0); /* Chatbox Colour Extra - Used in my extras */
-	--background-primary-alt: rgba(66, 61, 61, 0.116); /* Primary Secondary */
-	--background-secondary: rgba(66, 61, 61, 0.411); /* Serverlist/Channelist Colour */
-	--background-secondary2: rgba(66, 61, 61, 0.192); /* Serverlist/Channelist Colour - Used in my extras */
-	--background-secondary-chat: rgba(224, 27, 27, 0.226); /* Idk nothing lol */
+	--background-primary: rgba(18, 19, 19, 0.849); /* Chatbox/Memberlist Colour */
+	--background-primary2: rgba(18, 18, 19, 0); /* Chatbox Colour Extra - Used in my extras */
+	--background-primary-alt: rgba(61, 61, 66, 0.116); /* Primary Secondary */
+	--background-secondary: rgba(22, 23, 26, 0.747); /* Serverlist/Channelist Colour */
+	--background-secondary2: rgba(22, 22, 26, 0.596); /* Serverlist/Channelist Colour - Used in my extras */
+	--background-secondary-chat: rgba(27, 30, 224, 0.226); /* Idk nothing lol */
 	--background-secondary-alt: var(--background-secondary); /* Name/ Config area below channels */
-	--background-tertiary: #00000007; /* CHANGE THIS TO MAKE DARKER/LIGHTER BACKGROUND GLOBALLY - MAY BREAK SEVERLIST COLOR THOUGH */
+	--background-tertiary: rgba(22, 23, 26, 0); /* CHANGE THIS TO MAKE DARKER/LIGHTER BACKGROUND GLOBALLY - MAY BREAK SEVERLIST COLOR THOUGH */
 	--background-serverlist: #00000000; /* Used For If --background-tertiary is too bright/dark */
 	--background-floating: rgba(5, 5, 5, 0.747); /* Floating boxes colour */
 	--background-logo: #36393fa0; /* Serverlist discord logo backdrops */
