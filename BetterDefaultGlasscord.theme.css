@@ -24,14 +24,13 @@
 */
 
 /* BlurpleColor */
-@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
-@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
+@import url(https://leeprky.github.io/themes/FullyThemedDiscord/FullyThemedDiscord.css);
+@import url(https://leeprky.github.io/snippits/coolsniipitsforthemes.css);
+@import url(https://leeprky.github.io/themes/BaseStuff/alt-color.css);
+@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 
 /* USRBG */
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
-
-/* Discord Font */
-@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 
 /* BDG Import */ 
 @import url(https://raw.githack.com/leeprky/BetterDefaultGlasscord/main/source/source.css);
@@ -96,8 +95,8 @@ body{
 }
 
 .theme-dark{
-    --alt-color: 114, 137, 218; /* Changes The Blurple Parts Of Discord: Must be in RBG Formot (#, #, #) */
-    --spotify-color: #15db47; /* Changes The Global Spotify Colour */
+        --alt-color: 114, 137, 218; /* Changes The Blurple Parts Of Discord: Must be in RBG Formot (#, #, #) */
+        --spotify-color: #15db47; /* Changes The Global Spotify Colour */
 	--text-normal: #fff;
 	--text-muted: rgb(141, 141, 141); /* Muted Emblem/Svg Text */
 	--channels-default: #d8dde4; /* Normal Channel Text */
@@ -116,8 +115,9 @@ body{
 	--background-attachments: #2f313640; /* Embeds colour etc */
 	--background-search-bar: #20222569; /* Search bar in top right etc */
 	--background-chatbox: #20222550; /* The chatbox colour */
-    --background-mentioned: #faa81a0a; /* Mentioned background colour */
-    --background-mentioned-hover: #faa81a18; /* Mentioned background colour on hover */
+        --background-mentioned: #faa81a0a; /* Mentioned background colour */
+        --background-mentioned-hover: #faa81a18; /* Mentioned background colour on hover */
+	--background-titlebar: rgba(0, 0, 0, 0.61);
 }
 
 /* --- */
