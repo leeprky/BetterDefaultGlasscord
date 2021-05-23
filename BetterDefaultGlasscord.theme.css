@@ -24,13 +24,14 @@
 */
 
 /* BlurpleColor */
-@import url(https://leeprky.github.io/themes/FullyThemedDiscord/FullyThemedDiscord.css);
-@import url(https://leeprky.github.io/snippits/coolsniipitsforthemes.css);
-@import url(https://leeprky.github.io/themes/BaseStuff/alt-color.css);
-@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
+@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
+@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
 
 /* USRBG */
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
+
+/* Discord Font */
+@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 
 /* BDG Import */ 
 @import url(https://raw.githack.com/leeprky/BetterDefaultGlasscord/main/source/source.css);
@@ -55,7 +56,7 @@
 	--glasscord-linux-blur: true;
 
 	/* The corner radius of the blurry background */
-	--glasscord-blur-corner-radius: 20px;
+	--glasscord-blur-corner-radius: 15px;
 
 	/* Discord-specific properties */
 	/* Custom (forced) titlebar */
@@ -95,8 +96,8 @@ body{
 }
 
 .theme-dark{
-        --alt-color: 114, 137, 218; /* Changes The Blurple Parts Of Discord: Must be in RBG Formot (#, #, #) */
-        --spotify-color: #15db47; /* Changes The Global Spotify Colour */
+    --alt-color: 114, 137, 218; /* Changes The Blurple Parts Of Discord: Must be in RBG Formot (#, #, #) */
+    --spotify-color: #15db47; /* Changes The Global Spotify Colour */
 	--text-normal: #fff;
 	--text-muted: rgb(141, 141, 141); /* Muted Emblem/Svg Text */
 	--channels-default: #d8dde4; /* Normal Channel Text */
@@ -104,7 +105,7 @@ body{
 	--background-primary: rgba(18, 19, 19, 0.849); /* Chatbox/Memberlist Colour */
 	--background-primary2: rgba(18, 18, 19, 0); /* Chatbox Colour Extra - Used in my extras */
 	--background-primary-alt: rgba(61, 61, 66, 0.116); /* Primary Secondary */
-	--background-secondary: rgba(22, 23, 26, 0.747); /* Serverlist/Channelist Colour */
+	--background-secondary: rgba(22, 23, 26, 0.719); /* Serverlist/Channelist Colour */
 	--background-secondary2: rgba(22, 22, 26, 0.596); /* Serverlist/Channelist Colour - Used in my extras */
 	--background-secondary-chat: rgba(27, 30, 224, 0.226); /* Idk nothing lol */
 	--background-secondary-alt: var(--background-secondary); /* Name/ Config area below channels */
@@ -115,10 +116,35 @@ body{
 	--background-attachments: #2f313640; /* Embeds colour etc */
 	--background-search-bar: #20222569; /* Search bar in top right etc */
 	--background-chatbox: #20222550; /* The chatbox colour */
-        --background-mentioned: #faa81a0a; /* Mentioned background colour */
-        --background-mentioned-hover: #faa81a18; /* Mentioned background colour on hover */
+    --background-mentioned: #faa81a0a; /* Mentioned background colour */
+    --background-mentioned-hover: #faa81a18; /* Mentioned background colour on hover */
 	--background-titlebar: rgba(0, 0, 0, 0.61);
 }
+
+.sidebarRegionScroller-3MXcoP, .contentRegionScroller-26nc1e, .sidebarRegion-VFTUkN, .contentTransitionWrap-3hqOEW, .sidebarRegionScroller-3MXcoP {
+	background-color: transparent;
+}
+
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #aa2210;}
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #c9990a;}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #0ea70e;}
+.layer-3QrUeG.baseLayer-35bLyl {background-color: var(--background-tertiary) !important;}
+/* .container-2lgZY8 {margin-top: 10px;} */
+.withFrame-haYltI {padding-top: 3.5px;margin-top: 0;}
+.wordmark-2iDDfm:after {
+  color: rgb(247, 245, 245);
+  content: "Discord";
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  width: 4000px;
+  top: 10px !important;
+  left: 20px;
+}
+.theme-light .wordmark-2iDDfm:after {color: rgb(48, 48, 48);}
+.theme-dark .wordmark-2iDDfm:after {color: rgb(247, 245, 245);}
+.wordmark-2iDDfm > svg {width: 0px;}
+.winButton-iRh8-Z {position: relative;top: -7.5px;cursor: pointer;width: 32px;height: 30px;pointer-events: auto;-webkit-app-region: no-drag;}
 
 /* --- */
 /* Anything Extra You Want To Add Below */
