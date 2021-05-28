@@ -2,7 +2,7 @@
  * @name BetterDefaultGlasscord
  * @description This theme improves the basic glasscord template
  * @author Leeprky#2063
- * @version 1.2
+ * @version 1.3
  * @source https://github.com/leeprky/BetterDefaultGlasscord
  * @invite https://discord.gg/Ff3rqAYB89
  * @authorLink hhttps://github.com/leeprky
@@ -24,11 +24,8 @@
 */
 
 /* BlurpleColor */
-@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
-@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
-
-/* USRBG */
-@import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
+@import url(https://leeprky.github.io/themes/BaseStuff/alt-color.css);
+@import url(https://leeprky.github.io/themes/FullyThemedDiscord/FullyThemedDiscord.css);
 
 /* Discord Font */
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
