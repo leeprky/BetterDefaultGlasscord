@@ -1,43 +1,55 @@
 /**
  * @name BetterDefaultGlasscord
- * @description This theme improves the basic glasscord template
- * @author Leeprky#2063
- * @version 1.4
+ * @description Updated Version To AryToNeX's Glasscord Example Theme.
+ * @author AryToNeX
+ * @version 2.0.0
  * @source https://github.com/leeprky/BetterDefaultGlasscord
- * @invite https://discord.gg/Ff3rqAYB89
- * @authorLink hhttps://github.com/leeprky
- */
-/*
-   Copyright 2020 AryToNeX
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+ * @updateUrl https://github.com/leeprky/BetterDefaultGlasscord/blob/main/BetterDefaultGlasscord.theme.css
+ * @authorId 224524143482241035
+ * @invite Ff3rqAYB89
+ * @donate https://www.paypal.com/paypalme/leeparkinson22
+ * @website https://leeprky.github.io/
 */
 
-/* BlurpleColor */
-@import url(https://leeprky.github.io/themes/BaseStuff/alt-color.css);
-@import url(https://leeprky.github.io/themes/FullyThemedDiscord/FullyThemedDiscord.css);
+/* 
+██████╗░███████╗████████╗████████╗███████╗██████╗░
+██╔══██╗██╔════╝╚══██╔══╝╚══██╔══╝██╔════╝██╔══██╗
+██████╦╝█████╗░░░░░██║░░░░░░██║░░░█████╗░░██████╔╝
+██╔══██╗██╔══╝░░░░░██║░░░░░░██║░░░██╔══╝░░██╔══██╗
+██████╦╝███████╗░░░██║░░░░░░██║░░░███████╗██║░░██║
+╚═════╝░╚══════╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝
 
-/* Discord Font */
-@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
+██████╗░███████╗███████╗░█████╗░██╗░░░██╗██╗░░░░░████████╗
+██╔══██╗██╔════╝██╔════╝██╔══██╗██║░░░██║██║░░░░░╚══██╔══╝
+██║░░██║█████╗░░█████╗░░███████║██║░░░██║██║░░░░░░░░██║░░░
+██║░░██║██╔══╝░░██╔══╝░░██╔══██║██║░░░██║██║░░░░░░░░██║░░░
+██████╔╝███████╗██║░░░░░██║░░██║╚██████╔╝███████╗░░░██║░░░
+╚═════╝░╚══════╝╚═╝░░░░░╚═╝░░╚═╝░╚═════╝░╚══════╝░░░╚═╝░░░
 
-/* BDG Import */ 
-@import url(https://leeprky.github.io/themes/BetterDefaultGlasscord/BetterDefaultGlasscord.css);
+░██████╗░██╗░░░░░░█████╗░░██████╗░██████╗░█████╗░░█████╗░██████╗░██████╗░
+██╔════╝░██║░░░░░██╔══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+██║░░██╗░██║░░░░░███████║╚█████╗░╚█████╗░██║░░╚═╝██║░░██║██████╔╝██║░░██║
+██║░░╚██╗██║░░░░░██╔══██║░╚═══██╗░╚═══██╗██║░░██╗██║░░██║██╔══██╗██║░░██║
+╚██████╔╝███████╗██║░░██║██████╔╝██████╔╝╚█████╔╝╚█████╔╝██║░░██║██████╔╝
+░╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░╚═════╝░░╚════╝░░╚════╝░╚═╝░░╚═╝╚═════╝░
 
-/* Light Mode Warning */
-@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/LightModeWarning.css);
+█▀▀ █▀█ █▄░█ █▀▀ █ █▀▀  █▀▀ █ █░░ █▀▀
+█▄▄ █▄█ █░▀█ █▀░ █ █▄█  █▀░ █ █▄▄ ██▄
+*/
 
-@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
-:root {--outdated_betterdefaultglasscord-39: none; --build: "39";--version: "v1.4" }
+/*
+█ █▀▄▀█ █▀█ █▀█ █▀█ ▀█▀
+█ █░▀░█ █▀▀ █▄█ █▀▄ ░█░
+*/
+
+@import "https://leeprky.github.io/themes/BetterDefaultGlasscord/BetterDefaultGlasscord.css";
+
+/*
+
+/*
+█▀▀ █▀█ █▄░█ █▀▀ █ █▀▀
+█▄▄ █▄█ █░▀█ █▀░ █ █▄█
+*/
 
 :root{
 	/* Here you can define properties for use with Glasscord. */
@@ -56,97 +68,215 @@
 	--glasscord-linux-blur: true;
 
 	/* The corner radius of the blurry background */
-	--glasscord-blur-corner-radius: 15px;
-
-	/* Discord-specific properties */
-	/* Custom (forced) titlebar */
-	/* native (default), windows, osx, linux (framed) */
-	--glasscord-titlebar: native;
-
-	/* USRBG Compatibility */
-	/* Please refer to https://github.com/Discord-Custom-Covers/usrbg */
-	
-	/* Distance from the avatar container to the edge of the modal */
-	--usrbg-modal-x-offset: -34px; 
-	--usrbg-modal-y-offset: -20px;
-	
-	/* Maximum width / height of modal */
-	--usrbg-modal-width: 600px; 
-	--usrbg-modal-height: 600px;
+	--glasscord-blur-corner-radius: 20px;
 }
 
-/* macOS Fix For ServerList */
-/*
-#app-mount .guilds-1SWlCJ, .base-3dtUhz {
-  top: calc(var(--server-container) + -32px) !important;
-}
-.platform-osx .container-1r6BKw {
-  -webkit-app-region: none;
-}
+:root {
+	--chatbox-colour: var(--glasscord-chatbox-colour) !important; 
+	--background-primary: transparent !important; 
+	--background-secondary: transparent !important; 
+	--background-secondary-alt: var(--glasscord-secondary-alt) !important; 
+	--background-tertiary: transparent !important; 
+	--background-floating: var(--glasscord-floating) !important; 
+  }
 
-/* --- */
-
-body{
-    background-color: transparent;
+.theme-dark { 
+   --glasscord-background: #080b0f98 !important;
+   --glasscord-sidebar-background: #080b0f59 ;
+   --glasscord-chatbox-colour: #191d30a8;
+   --glasscord-secondary-alt: #11142280;
+   --glasscord-floating: #111422; 
+   --background-titlebar: var(--glasscord-background);
 }
+.theme-light { 
+	--glasscord-background: #f9fcffbb !important;
+	--glasscord-sidebar-background: #f2f2f359 ;
+	--glasscord-chatbox-colour: #f2f3f7a8;
+	--glasscord-secondary-alt: #e3e5ee80;
+	--glasscord-floating: #dfe2ec; 
+	--background-titlebar: var(--glasscord-background);
+ }
 
-#app-mount{
-	background-color: transparent;
-	border-radius: var(--glasscord-blur-corner-radius);
-}
+/* █▀▀ █░█ █▀ ▀█▀ █▀█ █▀▄▀█ █ █▀ ▄▀█ ▀█▀ █ █▀█ █▄░█
+   █▄▄ █▄█ ▄█ ░█░ █▄█ █░▀░█ █ ▄█ █▀█ ░█░ █ █▄█ █░▀█ */
+   :root {
 
-.theme-dark{
-    --alt-color: 114, 137, 218; /* Changes The Blurple Parts Of Discord: Must be in RBG Formot (#, #, #) */
-	--alt-color2: #7289DA; /* Changes The Blurple Parts Of Discord: Must be in RBG Formot (#, #, #) */
-    --spotify-color: #15db47; /* Changes The Global Spotify Colour */
-	--text-normal: #fff;
-	--text-muted: rgb(141, 141, 141); /* Muted Emblem/Svg Text */
-	--channels-default: #d8dde4; /* Normal Channel Text */
-	--interactive-muted: #56595c; /* Muted Text */
-	--background-primary: rgba(18, 19, 19, 0.849); /* Chatbox/Memberlist Colour */
-	--background-primary2: rgba(18, 18, 19, 0.651); /* Chatbox Colour Extra - Used in my extras */
-	--background-primary-alt: rgba(61, 61, 66, 0.116); /* Primary Secondary */
-	--background-secondary: rgba(22, 23, 26, 0.719); /* Serverlist/Channelist Colour */
-	--background-secondary2: rgba(22, 22, 26, 0.596); /* Serverlist/Channelist Colour - Used in my extras */
-	--background-secondary-chat: rgba(27, 30, 224, 0.226); /* Idk nothing lol */
-	--background-secondary-alt: var(--background-secondary); /* Name/ Config area below channels */
-	--background-tertiary: rgba(24, 76, 231, 0); /* CHANGE THIS TO MAKE DARKER/LIGHTER BACKGROUND GLOBALLY - MAY BREAK SEVERLIST COLOR THOUGH */
-	--background-serverlist: #00000000; /* Used For If --background-tertiary is too bright/dark */
-	--background-floating: rgba(5, 5, 5, 0.747); /* Floating boxes colour */
-	--background-logo: #36393fa0; /* Serverlist discord logo backdrops */
-	--background-attachments: #2f313640; /* Embeds colour etc */
-	--background-search-bar: #20222569; /* Search bar in top right etc */
-	--background-chatbox: #20222550; /* The chatbox colour */
-    --background-mentioned: #faa81a0a; /* Mentioned background colour */
-    --background-mentioned-hover: #faa81a18; /* Mentioned background colour on hover */
-	--background-titlebar: rgba(0, 0, 0, 0.61);
-}
+    /* Gradients */
+    --default-gradient: 315deg, #406bfab4 0%, #4062fa9d 74%;
+    --special-gradient: 315deg, #4072fa 0%, #c987b8 74%;
+    --red-gradient: 315deg, #AA3738 0%, #F04747 74%;
+    --red-hsl: hsl(359, 63%, 53%);
+    --yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74%;
+    --yellow-hsl: hsl(46, 72%, 52%);
+    --green-gradient: 315deg, #507a73 0%, #4b7c72  74%;
+    --grey-gradient: 315deg, #5f7d91 0%, #5f7d91 74%;
+    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;
+       
+    /* Transitions */
+    --font-normal: 500;
+    --font-hover: bold;
+    --font-size-hover: 15px;
+    --hover-transition: 0.1s linear;
+    --transform-normal: scale(1);
+    --hover-transform: scale(1.15);
+    --setting-hover-transform: scale(1.025);
+    --button-hover-transform: scale(1.03);
+ 
+    /* Greenple Colour*/
+    --green-color: var(--alt-color2);
+    --green-bar-on: #5c646480;
+    --green-bar-bg: var(--green-color);
+    --green-slider-on: var(--green-color);
+    --green-slider-off: #404447fd;
+    --green-slider-dot: #fff;
+ }
 
-.sidebarRegionScroller-3MXcoP, .contentRegionScroller-26nc1e, .sidebarRegion-VFTUkN, .contentTransitionWrap-3hqOEW, .sidebarRegionScroller-3MXcoP {
-	background-color: transparent;
-}
+/*  █▀▄ ▄▀█ █▀█ █▄▀
+    █▄▀ █▀█ █▀▄ █░█ */
+   
+.theme-dark {
 
-.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #aa2210;}
-.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #c9990a;}
-.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #0ea70e;}
-.layer-3QrUeG.baseLayer-35bLyl {background-color: var(--background-tertiary) !important;}
-/* .container-2lgZY8 {margin-top: 10px;} */
-.withFrame-haYltI {padding-top: 3.5px;margin-top: 0;}
-.wordmark-2iDDfm:after {
-  color: rgb(247, 245, 245);
-  content: "Discord";
-  font-size: 15px;
-  font-weight: 700;
-  position: absolute;
-  width: 4000px;
-  top: 10px !important;
-  left: 20px;
-}
-.theme-light .wordmark-2iDDfm:after {color: rgb(48, 48, 48);}
-.theme-dark .wordmark-2iDDfm:after {color: rgb(247, 245, 245);}
-.wordmark-2iDDfm > svg {width: 0px;}
-.winButton-iRh8-Z {position: relative;top: -7.5px;cursor: pointer;width: 32px;height: 30px;pointer-events: auto;-webkit-app-region: no-drag;}
+   --channeltextarea-background: #2e2e2e;
 
-/* --- */
-/* Anything Extra You Want To Add Below */
-/* -- */
+   --alt-color: 91, 113, 236;
+   --alt-color2: #5b71ec; 
+   
+   --playing-color: var(--alt-color2); 
+   --spotify-color: var(--alt-color2);
+   --streaming-color: rgb(127, 50, 179); 
+   
+    /* Header Colors */
+    --header-primary: #FFFFFF; 
+    --header-secondary: #c7c7c7; 
+    --channels-headings: var(--alt-color2); 
+  
+    /* Text Colours */
+    --text-normal: #F0F0F0; 
+    --text-muted: #B3B3B3; 
+    --text-link: var(--alt-color2); 
+    --channels-default: #dddddd; 
+    --interactive-normal: #F0F0F0; 
+    --interactive-hover: #F0F0F0; 
+    --interactive-hover-icons: var(--background-accent2); 
+    --interactive-active: #fefeff; 
+     --interactive-active-icons: var(--background-accent2); 
+    --interactive-muted: #585858; 
+   
+    /* Background Colours */
+    --background-primary: #202020; 
+    --background-primary-alt: #202020; 
+    --background-secondary: #191919; 
+    --background-secondary-alt: #191919;
+    --background-tertiary: #171717; 
+    --background-accent: var(--alt-color2); 
+    --background-floating: #161616; 
+   
+    /* Mentioned  Colours */
+    --background-mentioned: #63636331 !important; 
+    --background-mentioned-hover: #4d4d4d59; 
+    --info-warning-foreground: #bdbdbdc5;
+   
+    --background-help-warning: rgba(250,166,26,0.1); 
+    --background-help-info: rgba(0,176,244,0.1); 
+   
+    /* Scrollbar Colours */
+    --background-modifier-hover: #323232; 
+    --background-modifier-active: #323232; 
+    --background-modifier-selected: #323232; 
+    --background-modifier-accent: #4c46a309; 
+   
+   /* Box Shadow On Floating Elements Colours */
+   --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15); 
+   --elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+   --elevation-medium: 0 4px 4px rgba(0,0,0,0.16); 
+   --elevation-high: 0 8px 16px rgba(0,0,0,0.24); 
+   
+   --scrollbar-thin-thumb: #6c6c6c; 
+   --scrollbar-thin-track: #17171700;
+   --scrollbar-auto-thumb: #6c6c6c;
+   --scrollbar-auto-track: #17171700; 
+   --scrollbar-auto-scrollbar-color-thumb: #6c6c6c; 
+   --scrollbar-auto-scrollbar-color-track: #171717da; 
+       
+   /* Other */
+   --radio-group-dot-foreground: var(--alt-color); 
+   }
+
+
+   /* █░░ █ █▀▀ █░█ ▀█▀
+      █▄▄ █ █▄█ █▀█ ░█░ */
+
+ .theme-light {
+ 
+   --channeltextarea-background: #f7f6ff;
+  
+   --alt-color: 91, 113, 236;
+   --alt-color2: #5b71ec; 
+   
+   --scrollbars: block; 
+   --public-servers: block; 
+   --playing-color: var(--alt-color2); 
+   --spotify-color: var(--alt-color2); 
+   --streaming-color: rgb(127, 50, 179); 
+   
+    /* Header Colors */
+    --header-primary: #1A1A1A; 
+    --header-secondary: #5E5D5F; 
+    --channels-headings: var(--alt-color2); 
+  
+    /* Text Colours */
+    --text-normal: #222222; 
+    --text-muted: #6d6d6d; 
+    --text-link: var(--alt-color2); 
+    --channels-default: #2c2c2c; 
+    --interactive-normal: #2a2b2c; 
+    --interactive-hover: #424242; 
+    --interactive-hover-icons: var(--background-accent2); 
+    --interactive-active: #303030; 
+     --interactive-active-icons: var(--background-accent2); 
+    --interactive-muted: #636363; 
+   
+    /* Mentioned  Colours */
+    --background-mentioned: #fcfcfc3b !important; 
+    --background-mentioned-hover: #ebebeb57; 
+   
+    /* Scrollbar Colours */
+    --background-modifier-hover: #ffffff28;
+    --background-modifier-active: #f6f6f62d; 
+    --background-modifier-selected: #ffffff5d; 
+    --background-modifier-accent: #ffffff02; 
+   
+   /* Box Shadow On Floating Elements Colours */
+   --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15); 
+   --elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+   --elevation-medium: 0 4px 4px rgba(0,0,0,0.16); 
+   --elevation-high: 0 8px 16px rgba(0,0,0,0.24); 
+   
+   --scrollbar-thin-thumb: #181717; 
+   --scrollbar-thin-track: #88868600;
+   --scrollbar-auto-thumb: #020202;
+   --scrollbar-auto-track: #ffffff00; 
+   --scrollbar-auto-scrollbar-color-thumb: #6c6c6c; 
+   --scrollbar-auto-scrollbar-color-track: #171717da; 
+       
+   /* Other */
+   --radio-group-dot-foreground: var(--alt-color2); /* Ignore */
+   } 
+
+ /* █ █▀▀ █▄░█ █▀█ █▀█ █▀▀
+    █ █▄█ █░▀█ █▄█ █▀▄ ██▄ */
+
+:root {--version: "v2.0.0" !important; --build: "45" !important; --outdated_betterdefaultglasscord-045: none !important}
+
+   /* ---------------------------------------------
+   
+                ███████╗███╗░░██╗██████╗░
+                ██╔════╝████╗░██║██╔══██╗
+                █████╗░░██╔██╗██║██║░░██║
+                ██╔══╝░░██║╚████║██║░░██║
+                ███████╗██║░╚███║██████╔╝
+                ╚══════╝╚═╝░░╚══╝╚═════╝░
+                ╚══════╝╚═╝░░╚══╝╚═════╝░
+                     Version 2.0.0
+   
+      --------------------------------------------- */
