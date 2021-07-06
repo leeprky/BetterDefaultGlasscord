@@ -1,0 +1,280 @@
+/**
+ * @name BetterDefaultGlasscord
+ * @description Updated Version To AryToNeX's Glasscord Example Theme.
+ * @author AryToNeX
+ * @version 2.0.0
+ * @source https://github.com/leeprky/BetterDefaultGlasscord
+ * @updateUrl https://github.com/leeprky/BetterDefaultGlasscord/blob/main/BetterDefaultGlasscord.theme.css
+ * @authorId 224524143482241035
+ * @invite Ff3rqAYB89
+ * @donate https://www.paypal.com/paypalme/leeparkinson22
+ * @website https://leeprky.github.io/
+*/
+
+/* 
+██████╗░███████╗████████╗████████╗███████╗██████╗░
+██╔══██╗██╔════╝╚══██╔══╝╚══██╔══╝██╔════╝██╔══██╗
+██████╦╝█████╗░░░░░██║░░░░░░██║░░░█████╗░░██████╔╝
+██╔══██╗██╔══╝░░░░░██║░░░░░░██║░░░██╔══╝░░██╔══██╗
+██████╦╝███████╗░░░██║░░░░░░██║░░░███████╗██║░░██║
+╚═════╝░╚══════╝░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝
+
+██████╗░███████╗███████╗░█████╗░██╗░░░██╗██╗░░░░░████████╗
+██╔══██╗██╔════╝██╔════╝██╔══██╗██║░░░██║██║░░░░░╚══██╔══╝
+██║░░██║█████╗░░█████╗░░███████║██║░░░██║██║░░░░░░░░██║░░░
+██║░░██║██╔══╝░░██╔══╝░░██╔══██║██║░░░██║██║░░░░░░░░██║░░░
+██████╔╝███████╗██║░░░░░██║░░██║╚██████╔╝███████╗░░░██║░░░
+╚═════╝░╚══════╝╚═╝░░░░░╚═╝░░╚═╝░╚═════╝░╚══════╝░░░╚═╝░░░
+
+░██████╗░██╗░░░░░░█████╗░░██████╗░██████╗░█████╗░░█████╗░██████╗░██████╗░
+██╔════╝░██║░░░░░██╔══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+██║░░██╗░██║░░░░░███████║╚█████╗░╚█████╗░██║░░╚═╝██║░░██║██████╔╝██║░░██║
+██║░░╚██╗██║░░░░░██╔══██║░╚═══██╗░╚═══██╗██║░░██╗██║░░██║██╔══██╗██║░░██║
+╚██████╔╝███████╗██║░░██║██████╔╝██████╔╝╚█████╔╝╚█████╔╝██║░░██║██████╔╝
+░╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░╚═════╝░░╚════╝░░╚════╝░╚═╝░░╚═╝╚═════╝░
+
+█▀▀ █▀█ █▄░█ █▀▀ █ █▀▀  █▀▀ █ █░░ █▀▀
+█▄▄ █▄█ █░▀█ █▀░ █ █▄█  █▀░ █ █▄▄ ██▄
+*/
+
+/*
+█ █▀▄▀█ █▀█ █▀█ █▀█ ▀█▀
+█ █░▀░█ █▀▀ █▄█ █▀▄ ░█░
+*/
+
+@import "https://leeprky.github.io/themes/BetterDefaultGlasscord/BetterDefaultGlasscord.css";
+
+/*
+█▀▀ █▀█ █▄░█ █▀▀ █ █▀▀
+█▄▄ █▄█ █░▀█ █▀░ █ █▄█
+*/
+
+:root{
+	/* Here you can define properties for use with Glasscord. */
+
+	/* Windows-specific properties */
+	/* Blur mode. Available types: acrylic (strong blur), blurbehind (light blur), transparent */
+	--glasscord-win-blur: blurbehind;
+
+	/* macOS-specific properties */
+	/* Vibrancy mode */
+	--glasscord-macos-vibrancy: fullscreen-ui;
+
+	/* Linux-specific properties */
+	/* Should Glasscord send a request to your window compositor to blur behind Discord's window? */
+	/* It currently supports KWin only */
+	--glasscord-linux-blur: true;
+
+	/* The corner radius of the blurry background */
+	--glasscord-blur-corner-radius: 20px;
+}
+
+:root {
+	--chatbox-colour: var(--glasscord-chatbox-colour) !important; 
+	--background-primary: transparent !important; 
+	--background-secondary: transparent !important; 
+	--background-secondary-alt: var(--glasscord-secondary-alt) !important; 
+	--background-tertiary: transparent !important; 
+	--background-floating: var(--glasscord-floating) !important; 
+  }
+
+.theme-dark { 
+   --glasscord-background: #080b0f98 !important;
+   --glasscord-sidebar-background: #080b0f59 ;
+   --glasscord-chatbox-colour: #191d30a8;
+   --glasscord-secondary-alt: #11142280;
+   --glasscord-floating: #111422; 
+   --background-titlebar: var(--glasscord-background);
+}
+.theme-light { 
+	--glasscord-background: #f9fcffbb !important;
+	--glasscord-sidebar-background: #f2f2f359 ;
+	--glasscord-chatbox-colour: #f2f3f7a8;
+	--glasscord-secondary-alt: #e3e5ee80;
+	--glasscord-floating: #dfe2ec; 
+	--background-titlebar: var(--glasscord-background);
+ }
+
+/* █▀▀ █░█ █▀ ▀█▀ █▀█ █▀▄▀█ █ █▀ ▄▀█ ▀█▀ █ █▀█ █▄░█
+   █▄▄ █▄█ ▄█ ░█░ █▄█ █░▀░█ █ ▄█ █▀█ ░█░ █ █▄█ █░▀█ */
+   :root {
+
+    /* Gradients */
+    --default-gradient: 315deg, #406bfab4 0%, #4062fa9d 74%;
+    --special-gradient: 315deg, #4072fa 0%, #c987b8 74%;
+    --red-gradient: 315deg, #AA3738 0%, #F04747 74%;
+    --red-hsl: hsl(359, 63%, 53%);
+    --yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74%;
+    --yellow-hsl: hsl(46, 72%, 52%);
+    --green-gradient: 315deg, #507a73 0%, #4b7c72  74%;
+    --grey-gradient: 315deg, #5f7d91 0%, #5f7d91 74%;
+    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;
+       
+    /* Transitions */
+    --font-normal: 500;
+    --font-hover: bold;
+    --font-size-hover: 15px;
+    --hover-transition: 0.1s linear;
+    --transform-normal: scale(1);
+    --hover-transform: scale(1.15);
+    --setting-hover-transform: scale(1.025);
+    --button-hover-transform: scale(1.03);
+ 
+    /* Greenple Colour*/
+    --green-color: var(--alt-color2);
+    --green-bar-on: #5c646480;
+    --green-bar-bg: var(--green-color);
+    --green-slider-on: var(--green-color);
+    --green-slider-off: #404447fd;
+    --green-slider-dot: #fff;
+ }
+
+/*  █▀▄ ▄▀█ █▀█ █▄▀
+    █▄▀ █▀█ █▀▄ █░█ */
+   
+.theme-dark {
+
+   --channeltextarea-background: #2e2e2e;
+
+   --alt-color: 91, 113, 236;
+   --alt-color2: #5b71ec; 
+   
+   --playing-color: var(--alt-color2); 
+   --spotify-color: var(--alt-color2);
+   --streaming-color: rgb(127, 50, 179); 
+   
+    /* Header Colors */
+    --header-primary: #FFFFFF; 
+    --header-secondary: #c7c7c7; 
+    --channels-headings: var(--alt-color2); 
+  
+    /* Text Colours */
+    --text-normal: #F0F0F0; 
+    --text-muted: #B3B3B3; 
+    --text-link: var(--alt-color2); 
+    --channels-default: #dddddd; 
+    --interactive-normal: #F0F0F0; 
+    --interactive-hover: #F0F0F0; 
+    --interactive-hover-icons: var(--background-accent2); 
+    --interactive-active: #fefeff; 
+     --interactive-active-icons: var(--background-accent2); 
+    --interactive-muted: #585858; 
+   
+    /* Background Colours */
+    --background-primary: #202020; 
+    --background-primary-alt: #202020; 
+    --background-secondary: #191919; 
+    --background-secondary-alt: #191919;
+    --background-tertiary: #171717; 
+    --background-accent: var(--alt-color2); 
+    --background-floating: #161616; 
+   
+    /* Mentioned  Colours */
+    --background-mentioned: #63636331 !important; 
+    --background-mentioned-hover: #4d4d4d59; 
+    --info-warning-foreground: #bdbdbdc5;
+   
+    --background-help-warning: rgba(250,166,26,0.1); 
+    --background-help-info: rgba(0,176,244,0.1); 
+   
+    /* Scrollbar Colours */
+    --background-modifier-hover: #32323246; 
+    --background-modifier-active: #32323242; 
+    --background-modifier-selected: #3232323b; 
+    --background-modifier-accent: #4c46a309; 
+   
+   /* Box Shadow On Floating Elements Colours */
+   --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15); 
+   --elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+   --elevation-medium: 0 4px 4px rgba(0,0,0,0.16); 
+   --elevation-high: 0 8px 16px rgba(0,0,0,0.24); 
+   
+   --scrollbar-thin-thumb: #6c6c6c; 
+   --scrollbar-thin-track: #17171700;
+   --scrollbar-auto-thumb: #6c6c6c;
+   --scrollbar-auto-track: #17171700; 
+   --scrollbar-auto-scrollbar-color-thumb: #6c6c6c; 
+   --scrollbar-auto-scrollbar-color-track: #171717da; 
+       
+   /* Other */
+   --radio-group-dot-foreground: var(--alt-color); 
+   }
+
+
+   /* █░░ █ █▀▀ █░█ ▀█▀
+      █▄▄ █ █▄█ █▀█ ░█░ */
+
+ .theme-light {
+ 
+   --channeltextarea-background: #f7f6ff;
+  
+   --alt-color: 91, 113, 236;
+   --alt-color2: #5b71ec; 
+   
+   --scrollbars: block; 
+   --public-servers: block; 
+   --playing-color: var(--alt-color2); 
+   --spotify-color: var(--alt-color2); 
+   --streaming-color: rgb(127, 50, 179); 
+   
+    /* Header Colors */
+    --header-primary: #1A1A1A; 
+    --header-secondary: #5E5D5F; 
+    --channels-headings: var(--alt-color2); 
+  
+    /* Text Colours */
+    --text-normal: #222222; 
+    --text-muted: #6d6d6d; 
+    --text-link: var(--alt-color2); 
+    --channels-default: #2c2c2c; 
+    --interactive-normal: #2a2b2c; 
+    --interactive-hover: #424242; 
+    --interactive-hover-icons: var(--background-accent2); 
+    --interactive-active: #303030; 
+     --interactive-active-icons: var(--background-accent2); 
+    --interactive-muted: #636363; 
+   
+    /* Mentioned  Colours */
+    --background-mentioned: #fcfcfc3b !important; 
+    --background-mentioned-hover: #ebebeb57; 
+   
+    /* Scrollbar Colours */
+    --background-modifier-hover: #ffffff28;
+    --background-modifier-active: #f6f6f62d; 
+    --background-modifier-selected: #ffffff5d; 
+    --background-modifier-accent: #ffffff02; 
+   
+   /* Box Shadow On Floating Elements Colours */
+   --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15); 
+   --elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+   --elevation-medium: 0 4px 4px rgba(0,0,0,0.16); 
+   --elevation-high: 0 8px 16px rgba(0,0,0,0.24); 
+   
+   --scrollbar-thin-thumb: #181717; 
+   --scrollbar-thin-track: #88868600;
+   --scrollbar-auto-thumb: #020202;
+   --scrollbar-auto-track: #ffffff00; 
+   --scrollbar-auto-scrollbar-color-thumb: #6c6c6c; 
+   --scrollbar-auto-scrollbar-color-track: #171717da; 
+       
+   /* Other */
+   --radio-group-dot-foreground: var(--alt-color2); /* Ignore */
+   } 
+
+ /* █ █▀▀ █▄░█ █▀█ █▀█ █▀▀
+    █ █▄█ █░▀█ █▄█ █▀▄ ██▄ */
+
+:root {--version: "v2.0.0" !important; --build: "45" !important; --outdated_betterdefaultglasscord-045: none !important}
+
+   /* ---------------------------------------------
+   
+                ███████╗███╗░░██╗██████╗░
+                ██╔════╝████╗░██║██╔══██╗
+                █████╗░░██╔██╗██║██║░░██║
+                ██╔══╝░░██║╚████║██║░░██║
+                ███████╗██║░╚███║██████╔╝
+                ╚══════╝╚═╝░░╚══╝╚═════╝░
+                ╚══════╝╚═╝░░╚══╝╚═════╝░
+                     Version 2.0.0
+   
+      --------------------------------------------- */
