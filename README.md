@@ -1,4 +1,4 @@
-## BetterDefaultGlasscord
+## BetterDefaultGlasscord (v2.0.0)
 A Discord theme with easy config and sleek user UI and design. With support for multiple clients & glasscord.
 
 ## INFO
