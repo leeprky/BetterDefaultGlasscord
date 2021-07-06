@@ -180,9 +180,9 @@
     --background-help-info: rgba(0,176,244,0.1); 
    
     /* Scrollbar Colours */
-    --background-modifier-hover: #323232; 
-    --background-modifier-active: #323232; 
-    --background-modifier-selected: #323232; 
+    --background-modifier-hover: #32323246; 
+    --background-modifier-active: #32323242; 
+    --background-modifier-selected: #3232323b; 
     --background-modifier-accent: #4c46a309; 
    
    /* Box Shadow On Floating Elements Colours */
