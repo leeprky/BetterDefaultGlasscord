@@ -15,6 +15,10 @@ For **Powercord** Users:
 cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/BetterDefaultGlasscord
 ```
 
+For **BetterDiscord** Users:
+
+1. Open `https://raw.githubusercontent.com/leeprky/BetterDefaultGlasscord/main/support/betterdiscord/BetterDefaultGlasscord.theme.css` & Click Download Raw
+
 # Extras 
 
 Thank you for checking out/downloading my Theme :)
