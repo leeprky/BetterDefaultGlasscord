@@ -125,6 +125,7 @@
 
    --alt-color: 91, 113, 236;
    --alt-color2: #5b71ec; 
+   --alt-color3: 231; /* HSL */
    
    --playing-color: var(--alt-color2); 
    --spotify-color: var(--alt-color2);
