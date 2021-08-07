@@ -10,6 +10,7 @@
  * @donate https://www.paypal.com/paypalme/leeparkinson22
  * @website https://leeprky.github.io/
 */
+
 /* 
 ██████╗░███████╗████████╗████████╗███████╗██████╗░
 ██╔══██╗██╔════╝╚══██╔══╝╚══██╔══╝██╔════╝██╔══██╗
@@ -47,7 +48,7 @@
 @import "https://leeprky.github.io/themes/lode/default/support/gradients/luckfiregradientbuttons.css";
 @import "https://leeprky.github.io/themes/GreenBeGo/greenple-replacer.css";
 @import "https://leeprky.github.io/themes/BetterDefaultGlasscord/version.css";
-@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
+@import url(https://leeprky.github.io/themes/BetterDefaultGlasscord/BetterDefaultGlasscord.css);
 
 /*
 █▀▀ █▀█ █▄░█ █▀▀ █ █▀▀
@@ -70,7 +71,7 @@
    --yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74%;
    --yellow-hsl: hsl(46, 72%, 52%);
    --green-gradient: 315deg, #507a73 0%, #4b7c72  74%;
-   --grey-gradient: 315deg, rgba(var(--alt-color), 0.5) 0%, rgba(var(--alt-color), 0.8) 74%;
+   --grey-gradient: 315deg, rgba(var(--alt-color), 0.5) 0%, rgba(var(--alt-color), 1.1) 74%;
    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;
    --font-normal: 500;
    --font-hover: bold;
@@ -110,11 +111,11 @@
 }
 
 .theme-dark {
-   --glasscord-primary: #23252988 !important;
-   --glasscord-secondary: #15161aa4 !important;
-   --glasscord-secondary-alt: #16171ac0 !important;
+   --glasscord-primary: #1a1c1fa2 !important;
+   --glasscord-secondary: #15161ac7 !important;
+   --glasscord-secondary-alt: #16171a75 !important;
    --glasscord-accent: var(--alt-color2) !important;
-   --glasscord-tertiary: #101113b6 !important;
+   --glasscord-tertiary: #10111380 !important;
    --glasscord-floating: #101214e8 !important;
    --glasscord-backdrop: 0.55 !important;
 
