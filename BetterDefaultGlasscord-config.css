@@ -48,8 +48,9 @@
    --background-accent: var(--glasscord-accent); 
    --background-floating: var(--glasscord-floating); 
 }
+
 body{background-color: transparent;}
-#app-mount{border-radius: 12px;} /* Default "12px" - Higher = More Round */
+#app-mount{border-radius: 12px; !important} 
 
 
 :root {
