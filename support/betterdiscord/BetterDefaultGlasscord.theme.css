@@ -54,14 +54,14 @@
 █▀▀ █▀█ █▄░█ █▀▀ █ █▀▀
 █▄▄ █▄█ █░▀█ █▀░ █ █▄█
 */
+
 :root{ 
-   --glasscord-win-blur: blurbehind;
-   --glasscord-linux-blur: true;
-   --glasscord-macos-vibrancy: fullscreen-ui;
-   --glasscord-blur-corner-radius: 20px;
    --background-accent: var(--glasscord-accent); 
    --background-floating: var(--glasscord-floating); 
 }
+
+body{background-color: transparent;}
+#app-mount{border-radius: 12px;} /* Default "12px" - Higher = More Round */
 
 :root {
    --default-gradient: 315deg, rgba(var(--alt-color), 0.4) 0%, rgba(var(--alt-color), 0.8) 74%;
@@ -161,3 +161,8 @@
                      Version 2.1.0
    
       --------------------------------------------- */
+
+      .powercord-toast {
+         border-radius: 18px;
+         background-color: transparent;
+     }
