@@ -50,7 +50,7 @@
 }
 
 body{background-color: transparent;}
-#app-mount{border-radius: 12px; !important} 
+#app-mount{border-radius: 12px;} 
 
 
 :root {
@@ -109,7 +109,7 @@ body{background-color: transparent;}
    --glasscord-floating: #101214e8 !important;
    --glasscord-backdrop: 0.55 !important;
    
-    --header-primary: #1A1A1A; 
+    --header-primary: #f3f3f3; 
     --header-secondary: #5E5D5F; 
     --channels-headings: var(--alt-color2); 
    
@@ -183,3 +183,7 @@ body{background-color: transparent;}
                      Version 2.1.0
    
       --------------------------------------------- */
+
+      .container-2wlB3z {
+         background-color: transparent;
+       }
